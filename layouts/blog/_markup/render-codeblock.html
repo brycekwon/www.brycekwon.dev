@@ -1,0 +1,4 @@
+{{ .Page.Store.Set "hasCodeBlock" true }}
+
+{{ $result := transform.HighlightCodeBlock . }}
+{{ $result.Wrapped }}

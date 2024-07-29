@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="{{ .Site.LanguageCode }}">
+    <head>
+        {{- partial "meta.html" . -}}
+        {{- partial "seo.html" . -}}
+
+        {{ $favicon := print "favicon.ico" | absURL }}
+        <link rel="shortcut icon" href="{{ $favicon }}">
+
+        {{ $style := resources.Get "css/default.css" | minify }}
+        <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+
+        {{ if (.Page.Store.Get "hasCodeBlock") }}
+            {{ $syntax := resources.Get "css/syntax.css" | minify }}
+            <link rel="stylesheet" href="{{ $syntax.RelPermalink }}">
+        {{ end }}
+
+        {{ $style := resources.Get "css/blog.css" | minify }}
+        <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+
+    </head>
+    <body>
+        <header>
+            {{- partial "header.html" . -}}
+        </header>
+
+        <main id="main-content">
+            {{- block "main" . }}{{- end }}
+        </main>
+
+        <footer>
+            {{- partial "footer.html" . -}}
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,36 @@
+title = "Bryce Kwon's Website"
+baseURL = "https://www.brycekwon.dev"
+copyright = "Copyright © 2024 Bryce Kwon"
+languageCode = "en-us"
+
+enableRobotsTXT = true
+disableHugoGeneratorInject = true
+disableKinds = ["taxonomy", "term", "rss"]
+
+[markup]
+    [markup.highlight]
+        lineNos = true
+        lineNumbersInTable = false
+        noClasses = false
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            hardWraps = true
+
+[module]
+    [module.imports]
+        path = "github.com/hugomods/images"
+
+[params]
+    [params.author]
+        name = "John Doe"
+        email = "me@example.com"
+    [params.hugomods]
+        [params.hugomods.images]
+            modern_format = "webp"
+
+[[menu.main]]
+identifier = "Contact"
+name = "Contact"
+title = "Contact"
+url = "/contact/"
+weight = 1

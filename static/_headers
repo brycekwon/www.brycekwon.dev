@@ -1,0 +1,9 @@
+/*
+   Content-Security-Policy: default-src 'none'; manifest-src 'self'; font-src 'self'; img-src 'self'; style-src 'self'; script-src 'self'; form-action 'none'; frame-ancestors 'none'; base-uri 'none'
+   X-Frame-Options: deny
+   X-Content-Type-Options: nosniff
+   X-XSS-Protection: 1; mode=block
+   Strict-Transport-Security: "max-age=31536000; includeSubDomains; preload" env=HTTPS
+   Cache-Control: max-age=31536000, public
+   Referrer-Policy: strict-origin-when-cross-origin
+   Feature-Policy: microphone 'none'; paym
