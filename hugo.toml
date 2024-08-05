@@ -22,8 +22,8 @@ disableKinds = ["taxonomy", "term", "rss"]
 
 [params]
     [params.author]
-        name = "John Doe"
-        email = "me@example.com"
+        name = "Bryce Kwon"
+        email = "a865a70a-e0fa-4b75-88d5-83b52112f9bd@simplelogin.com"
     [params.hugomods]
         [params.hugomods.images]
             modern_format = "webp"
