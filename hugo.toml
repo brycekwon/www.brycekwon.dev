@@ -23,7 +23,7 @@ disableKinds = ["taxonomy", "term", "rss"]
 [params]
     [params.author]
         name = "Bryce Kwon"
-        email = "a865a70a-e0fa-4b75-88d5-83b52112f9bd@simplelogin.com"
+        email = "31c9456f-52ec-47ff-87c9-7d57e1e75c18@simplelogin.com"
     [params.hugomods]
         [params.hugomods.images]
             modern_format = "webp"
