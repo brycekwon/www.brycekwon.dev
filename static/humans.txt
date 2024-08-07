@@ -1,0 +1,19 @@
+/* TEAM */
+    Developer: Bryce Kwon
+    Location: United States
+    Contact: 31c9456f-52ec-47ff-87c9-7d57e1e75c18@simplelogin.com
+
+/* SITE */
+    Last Updated: 2024-08-06
+    Tools Used: HTML5, CSS3, Golang, Hugo
+
+
+ ________________________________________
+/ In theory, theory and practice are the \
+\ same. In practice, they are not.       /
+ ----------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+              ||----w |
+                ||     ||
