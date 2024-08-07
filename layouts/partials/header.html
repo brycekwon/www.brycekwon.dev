@@ -4,7 +4,7 @@
     <h1>{{ .Site.Title }}</h1>
 </a>
 <nav>
-    <a href="{{ "" | relURL }}">Home</a>
+    <a href="{{ "" | relURL }}">About</a>
     {{ range .Site.Menus.main.ByWeight }}
         <a href="{{ .URL }}">{{ .Name }}</a>
     {{ end }}
